@@ -1,0 +1,26 @@
+{
+  "Group": "Artho",
+  "Name": "ModJam",
+  "Version": "1.0.0",
+  "Description": "A mod for Hytale Modjam 2026.",
+  "Authors": [
+    {
+      "Name": "Artho",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Karlljp",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "Main": "com.artho.orbimon.OrbimonPlugin",
+  "IncludesAssetPack": true
+}
