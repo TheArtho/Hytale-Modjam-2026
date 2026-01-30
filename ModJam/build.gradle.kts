@@ -24,5 +24,8 @@ tasks.test {
 tasks.register<Copy>("copyJarToModsFolder") {
     dependsOn(tasks.jar)
     from(tasks.jar)
-    into("Your\\Mod\\Folder")
+    val modsDir = project.findProperty("hytaleModsDir") as String?
+        ?: error("hytaleModsDir is not defined")
+
+    into(modsDir)
 }
