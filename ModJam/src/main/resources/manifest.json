@@ -1,8 +1,8 @@
 {
   "Group": "Artho",
-  "Name": "ModJam",
+  "Name": "Modjam: Forgotten Mechanisms",
   "Version": "1.0.0",
-  "Description": "A mod for Hytale Modjam 2026.",
+  "Description": "A mod for Hytale Modjam 2026, theme is \"Echoes of the Machine\".",
   "Authors": [
     {
       "Name": "Artho",
@@ -26,6 +26,6 @@
   "OptionalDependencies": {},
   "LoadBefore": {},
   "DisabledByDefault": false,
-  "Main": "com.artho.orbimon.OrbimonPlugin",
+  "Main": "com.artho.mod.MainPlugin",
   "IncludesAssetPack": true
 }

@@ -1,4 +1,4 @@
-﻿package core.artho.mod;
+package core.artho.mod;
 
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
