@@ -1,4 +1,4 @@
-package core.artho.mod.config;
+package com.artho.mod.config;
 
 import com.hypixel.hytale.codec.builder.BuilderCodec;
 
