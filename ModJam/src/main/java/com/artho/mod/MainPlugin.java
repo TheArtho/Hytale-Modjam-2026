@@ -48,8 +48,8 @@ public class MainPlugin extends JavaPlugin {
         getChunkStoreRegistry().registerSystem(new RewindCoreInitializer());
         getChunkStoreRegistry().registerSystem(new RewindCoreSystem());
         // Rewind block registry
-        RewindRegistry.blockToBlock("Trigger_Crystal_On", "Trigger_Crystal_Off");
-        RewindRegistry.blockToBlock("Trigger_Crystal_Off", "Trigger_Crystal_On");
+        RewindRegistry.blockToBlock("Rock_Gold_Brick_Smooth", "Rock_Gold_Brick_Rusty");
+        RewindRegistry.blockToBlock("Rock_Gold_Brick_Rusty", "Rock_Gold_Brick_Smooth");
         RewindRegistry.blockToBlock("Soil_Sand", "Soil_Grass");
         RewindRegistry.blockToBlock("Soil_Grass", "Soil_Sand");
         RewindRegistry.blockToBlock("Rock_Stone_Brick", "Rock_Lime_Brick");
